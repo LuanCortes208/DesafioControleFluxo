@@ -20,7 +20,7 @@ public class Contador {
             contar(primeiro_parâmetro, segundo_parâmetro);
         } catch(ParametrosInvalidosException parametrosInvalidos){
             // Se a exceção for lançada, exibe a mensagem de erro no console
-            System.out.println("O segundo parâmetro deve ser maior que o primeiro");
+            System.out.println(parametrosInvalidos.getMessage());
         } finally {
             // Fecha o Scanner para evitar consumo de recursos
             sc.close();
