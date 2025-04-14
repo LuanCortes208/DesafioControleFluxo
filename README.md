@@ -12,16 +12,19 @@ Programa que valida parâmetros e executa contagem personalizada, demonstrando t
 1. Clone o repositório:
 ```bash
 git clone https://github.com/LuanCortes208/DesafioControleFluxo.git
+```
 
 2. Compile e execute
 ```bash
 javac Contador.java
 java Contador
+```
 
 3. Siga as instruções no terminal
 ```bash
 Digite o primeiro parâmetro: [valor]
 Digite o segundo parâmetro: [valor]
+```
 
 ## ⚙️ **Lógica do Programa**
 ### **Fluxo Principal**
@@ -40,7 +43,7 @@ contar(): Executa a contagem baseada na diferença entre números
 
 main(): Gerencia o fluxo e recursos (com try-catch-finally)
 
-##🧠 **Conceitos Aplicados**
+## 🧠 **Conceitos Aplicados**
 ✔ Tratamento de exceções personalizadas
 ✔ Controle de fluxo com try-catch-finally
 ✔ Manipulação de entrada/saída com Scanner
