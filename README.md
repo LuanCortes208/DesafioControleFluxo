@@ -37,11 +37,11 @@ Se válidos, imprime uma contagem progressiva
 Se inválidos, lança exceção personalizada
 
 ### **Métodos Implementados**
-verificar(): Valida os parâmetros usando ParametrosInvalidosException
+**verificar()**: Valida os parâmetros usando ParametrosInvalidosException
 
-contar(): Executa a contagem baseada na diferença entre números
+**contar()**: Executa a contagem baseada na diferença entre números
 
-main(): Gerencia o fluxo e recursos (com try-catch-finally)
+**main()**: Gerencia o fluxo e recursos (com try-catch-finally)
 
 ## 🧠 **Conceitos Aplicados**
 ✔ Tratamento de exceções personalizadas
