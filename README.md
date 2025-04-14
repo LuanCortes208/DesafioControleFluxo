@@ -1,18 +1,47 @@
-## Getting Started
+# **Sistema de Validação de Processo Seletivo em Java**
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Programa que valida parâmetros e executa contagem personalizada, demonstrando tratamento de exceções em Java.
 
-## Folder Structure
+## 📝 **Funcionalidades**
+- **Validação de parâmetros**: Verifica se o segundo número é maior que o primeiro
+- **Contagem inteligente**: Calcula e imprime a diferença entre os números
+- **Tratamento robusto**: Exceção personalizada (`ParametrosInvalidosException`)
+- **Gerenciamento de recursos**: Fecha `Scanner` automaticamente no `finally`
 
-The workspace contains two folders by default, where:
+## 🛠️ **Como Executar**
+1. Clone o repositório:
+```bash
+git clone https://github.com/LuanCortes208/DesafioControleFluxo.git
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+2. Compile e execute
+```bash
+javac Contador.java
+java Contador
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+3. Siga as instruções no terminal
+```bash
+Digite o primeiro parâmetro: [valor]
+Digite o segundo parâmetro: [valor]
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## ⚙️ **Lógica do Programa**
+### **Fluxo Principal**
+Recebe dois números inteiros como entrada
 
-## Dependency Management
+Verifica se o segundo parâmetro é maior que o primeiro
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Se válidos, imprime uma contagem progressiva
+
+Se inválidos, lança exceção personalizada
+
+### **Métodos Implementados**
+verificar(): Valida os parâmetros usando ParametrosInvalidosException
+
+contar(): Executa a contagem baseada na diferença entre números
+
+main(): Gerencia o fluxo e recursos (com try-catch-finally)
+
+##🧠 **Conceitos Aplicados**
+✔ Tratamento de exceções personalizadas
+✔ Controle de fluxo com try-catch-finally
+✔ Manipulação de entrada/saída com Scanner
+✔ Boas práticas de fechamento de recursos
